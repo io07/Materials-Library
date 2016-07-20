@@ -18,4 +18,8 @@
 		2. no direct sharing of resouces.
 		3. perfect vehicle for operating-systems research and development.
 5. Java Virtual Machine. (JVM)
-	![Java execution steps](http://img.my.csdn.net/uploads/201212/21/1356070838_2499.png)
+
+C++的跨平台是不同的平台需要在不同的平台上重新编译源代码生成系统所对应的机器码;
+java的跨平台是在源代码和机器码中又加入了一层字节码，且不同的平台再装上不同的jvm（java虚拟机）将字节码转换成相应的机器码。
+
+![Java execution steps](http://img.my.csdn.net/uploads/201212/21/1356070838_2499.png)
