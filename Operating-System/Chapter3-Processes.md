@@ -39,6 +39,7 @@ process control block, cotains many pieces of information associated with a spec
 7. Context Switch
 	interrrupts cause the operating system to change a CPU from its current task and to run a kernel routine
 	state save / state restore
+
 ## Operations on Processes
 - parent, children forming a tree of processes, unique flag pid
 - When a process creates a subprocess, that process's resources can be obtained from a. os b. parent
