@@ -27,7 +27,7 @@ while(ta - he > 1)
 }
 return ta;
 ```
-### 3.Find the first one no larger than the key (<=) the key
+### 3.Find the last one no larger than the key (<=) the key
 ```C++
 int he = -1, ta = len;
 while(ta - he > 1)
@@ -38,7 +38,7 @@ while(ta - he > 1)
 }
 return he;
 ```
-### 4.Find the first one less than the key (<) the key
+### 4.Find the last one less than the key (<) the key
 ```C++
 int he = -1, ta = len;
 while(ta - he > 1)
