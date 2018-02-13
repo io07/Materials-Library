@@ -8,7 +8,9 @@ Based on C++
 
 ### 1. Two Sum (Leetcode 1)
 <https://leetcode.com/problems/two-sum/description/>
+
 The dataset isn't large so just enumerate the whole solution space to get the answer.
+
 ```C++
 class Solution {
 public:
@@ -32,7 +34,9 @@ public:
 ```
 ### 2. Three Sum (Leetcode 15)
 <https://leetcode.com/problems/3sum/description/>
+
 Enumerate one value as target and use two pointers (one move from the head and the other from the tail) to get the answer in O(n), so the total time complexity is O(n^2).
+
 Pay attention to removing duplicates triplets.
 Every time you move the pointer(i, he, ta), make sure the pointer get a new value(jump the same value positions).
 
@@ -67,6 +71,7 @@ public:
 
 ### 3. 3Sum Closest(Leetcode 16)
 <https://leetcode.com/problems/3sum-closest/description/>
+
 ```C++
 class Solution {
 public:
